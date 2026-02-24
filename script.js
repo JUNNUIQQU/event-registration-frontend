@@ -3,7 +3,6 @@ const successMessage = document.getElementById("successMessage");
 
 form.addEventListener("submit", async function (e) {
 e.preventDefault();
-
 const data = {
 name: document.getElementById("name").value,
 email: document.getElementById("email").value,
